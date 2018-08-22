@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B59244AA1C0EEA7700D779F4 /* BitmapUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B59244A91C0EEA7700D779F4 /* BitmapUtil.m */; };
+		B59244AD1C0EEABC00D779F4 /* CommonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B59244AC1C0EEABC00D779F4 /* CommonUtil.m */; };
+		B59244B31C0EF57700D779F4 /* Bullet.m in Sources */ = {isa = PBXBuildFile; fileRef = B59244B21C0EF57700D779F4 /* Bullet.m */; };
+		B59244B61C0F06A400D779F4 /* Shooter.m in Sources */ = {isa = PBXBuildFile; fileRef = B59244B51C0F06A400D779F4 /* Shooter.m */; };
+		B59244B91C0FDAC100D779F4 /* Bobble.m in Sources */ = {isa = PBXBuildFile; fileRef = B59244B81C0FDAC100D779F4 /* Bobble.m */; };
+		B59244BC1C0FEFDD00D779F4 /* GameMap.m in Sources */ = {isa = PBXBuildFile; fileRef = B59244BB1C0FEFDD00D779F4 /* GameMap.m */; };
 		B592A83B1AF98F1A0014FC4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B592A83A1AF98F1A0014FC4C /* Foundation.framework */; };
 		B592A83D1AF98F1A0014FC4C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B592A83C1AF98F1A0014FC4C /* CoreGraphics.framework */; };
 		B592A83F1AF98F1A0014FC4C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B592A83E1AF98F1A0014FC4C /* UIKit.framework */; };
@@ -37,6 +43,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B59244A81C0EEA7700D779F4 /* BitmapUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitmapUtil.h; sourceTree = "<group>"; };
+		B59244A91C0EEA7700D779F4 /* BitmapUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitmapUtil.m; sourceTree = "<group>"; };
+		B59244AB1C0EEABC00D779F4 /* CommonUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonUtil.h; sourceTree = "<group>"; };
+		B59244AC1C0EEABC00D779F4 /* CommonUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonUtil.m; sourceTree = "<group>"; };
+		B59244B11C0EF57700D779F4 /* Bullet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Bullet.h; path = ../Bullet.h; sourceTree = "<group>"; };
+		B59244B21C0EF57700D779F4 /* Bullet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Bullet.m; path = ../Bullet.m; sourceTree = "<group>"; };
+		B59244B41C0F06A400D779F4 /* Shooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shooter.h; sourceTree = "<group>"; };
+		B59244B51C0F06A400D779F4 /* Shooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shooter.m; sourceTree = "<group>"; };
+		B59244B71C0FDAC100D779F4 /* Bobble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bobble.h; sourceTree = "<group>"; };
+		B59244B81C0FDAC100D779F4 /* Bobble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bobble.m; sourceTree = "<group>"; };
+		B59244BA1C0FEFDD00D779F4 /* GameMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameMap.h; sourceTree = "<group>"; };
+		B59244BB1C0FEFDD00D779F4 /* GameMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameMap.m; sourceTree = "<group>"; };
 		B592A8371AF98F1A0014FC4C /* Try_bobble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Try_bobble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B592A83A1AF98F1A0014FC4C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B592A83C1AF98F1A0014FC4C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -128,6 +146,18 @@
 				B592A8521AF98F1A0014FC4C /* ViewController.m */,
 				B592A8541AF98F1A0014FC4C /* MyScene.h */,
 				B592A8551AF98F1A0014FC4C /* MyScene.m */,
+				B59244B11C0EF57700D779F4 /* Bullet.h */,
+				B59244B21C0EF57700D779F4 /* Bullet.m */,
+				B59244B41C0F06A400D779F4 /* Shooter.h */,
+				B59244B51C0F06A400D779F4 /* Shooter.m */,
+				B59244B71C0FDAC100D779F4 /* Bobble.h */,
+				B59244B81C0FDAC100D779F4 /* Bobble.m */,
+				B59244BA1C0FEFDD00D779F4 /* GameMap.h */,
+				B59244BB1C0FEFDD00D779F4 /* GameMap.m */,
+				B59244A81C0EEA7700D779F4 /* BitmapUtil.h */,
+				B59244A91C0EEA7700D779F4 /* BitmapUtil.m */,
+				B59244AB1C0EEABC00D779F4 /* CommonUtil.h */,
+				B59244AC1C0EEABC00D779F4 /* CommonUtil.m */,
 				B592A8571AF98F1A0014FC4C /* Spaceship.png */,
 				B592A8591AF98F1A0014FC4C /* Images.xcassets */,
 				B592A8431AF98F1A0014FC4C /* Supporting Files */,
@@ -262,9 +292,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B59244B61C0F06A400D779F4 /* Shooter.m in Sources */,
+				B59244B31C0EF57700D779F4 /* Bullet.m in Sources */,
 				B592A8561AF98F1A0014FC4C /* MyScene.m in Sources */,
+				B59244B91C0FDAC100D779F4 /* Bobble.m in Sources */,
+				B59244BC1C0FEFDD00D779F4 /* GameMap.m in Sources */,
+				B59244AA1C0EEA7700D779F4 /* BitmapUtil.m in Sources */,
 				B592A8531AF98F1A0014FC4C /* ViewController.m in Sources */,
 				B592A84D1AF98F1A0014FC4C /* AppDelegate.m in Sources */,
+				B59244AD1C0EEABC00D779F4 /* CommonUtil.m in Sources */,
 				B592A8491AF98F1A0014FC4C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -472,6 +508,7 @@
 				B592A8721AF98F1A0014FC4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B592A8731AF98F1A0014FC4C /* Build configuration list for PBXNativeTarget "Try_bobbleTests" */ = {
 			isa = XCConfigurationList;
@@ -480,6 +517,7 @@
 				B592A8751AF98F1A0014FC4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
